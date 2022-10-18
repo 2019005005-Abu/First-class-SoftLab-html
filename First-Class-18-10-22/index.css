@@ -1,0 +1,85 @@
+.nav1{
+background-color: aquamarine;
+margin: 10px 20px;
+padding: 10px;
+
+}
+.nav1 ol{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 ol li{
+    list-style-type: none;
+    background: red;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: .5s;
+    
+}
+.nav1 ol li:hover{
+    cursor: pointer;
+    border-radius: 20%;
+    transition: .3s;
+    color: white;
+    background-color:black;
+}
+
+.formDesigning{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: bisque;
+}
+input{
+    margin: 5px;
+    padding: 5px 10px;
+}
+form label{
+     font-size: 20px;
+     font-family: sans-serif;
+
+}
+
+div button{
+    margin: 10px;
+    padding: 10px 20px;
+    color: orange;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.tableis{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tableis th{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.tableis td{
+    background-color:orangered;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+div textarea{
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+
+}
